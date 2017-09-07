@@ -5,7 +5,7 @@
 This repository contains trained models reported in the paper "[Quo Vadis,
 Action Recognition? A New Model and the Kinetics
 Dataset](https://arxiv.org/abs/1705.07750)" by Joao Carreira and Andrew
-Zisserman. The paper was posted on arXiv in May 2017, and will be published as a
+Zisserman. The paper was posted on arXiv in May 2017, and was published as a
 CVPR 2017 conference paper.
 
 "Quo Vadis" introduced a new architecture for video classification, the Inflated
