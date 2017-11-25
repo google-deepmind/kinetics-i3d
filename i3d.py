@@ -415,7 +415,7 @@ class InceptionI3d(snt.AbstractModule):
         branch_2 = Unit3D(output_channels=32, kernel_shape=[1, 1, 1],
                           name='Conv3d_0a_1x1')(net, is_training=is_training)
         branch_2 = Unit3D(output_channels=128, kernel_shape=[3, 3, 3],
-                          name='Conv3d_0a_3x3')(branch_2,
+                          name='Conv3d_0b_3x3')(branch_2,
                                                 is_training=is_training)
       with tf.variable_scope('Branch_3'):
         branch_3 = tf.nn.max_pool3d(net, ksize=[1, 3, 3, 3, 1],
