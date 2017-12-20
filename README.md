@@ -10,7 +10,7 @@ CVPR 2017 conference paper.
 
 "Quo Vadis" introduced a new architecture for video classification, the Inflated
 3D Convnet or I3D. Here we release Inception-v1 I3D models trained on the
-[Kinetics dataset](www.deepmind.com/kinetics) training split.
+[Kinetics dataset](http://www.deepmind.com/kinetics) training split.
 
 In our paper, we reported state-of-the-art results on the UCF101 and HMDB51
 datasets from fine-tuning these models. I3D models pre-trained on Kinetics also
