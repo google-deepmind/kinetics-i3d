@@ -13,9 +13,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ============================================================================
+
 python evaluate_sample.py --imagenet_pretrained true --eval_type joint > out/imagenet_joint.txt
 python evaluate_sample.py --imagenet_pretrained true --eval_type flow > out/imagenet_flow.txt
 python evaluate_sample.py --imagenet_pretrained true --eval_type rgb > out/imagenet_rgb.txt
+python evaluate_sample.py --imagenet_pretrained=false --eval_type rgb600 > out/no_imagenet_rgb600.txt
 python evaluate_sample.py --imagenet_pretrained false --eval_type joint > out/no_imagenet_joint.txt
 python evaluate_sample.py --imagenet_pretrained false --eval_type flow > out/no_imagenet_flow.txt
 python evaluate_sample.py --imagenet_pretrained false --eval_type rgb > out/no_imagenet_rgb.txt

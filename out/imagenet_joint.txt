@@ -1,23 +1,23 @@
-Norm of logits: 138.468643
+Norm of logits: 138.468658
 
 Top classes and probabilities
-1.0 41.8137 playing cricket
-1.49716e-09 21.494 hurling (sport)
-3.84312e-10 20.1341 catching or throwing baseball
-1.54923e-10 19.2256 catching or throwing softball
-1.13602e-10 18.9154 hitting baseball
-8.80112e-11 18.6601 playing tennis
-2.44157e-11 17.3779 playing kickball
-1.15319e-11 16.6278 playing squash or racquetball
-6.13194e-12 15.9962 shooting goal (soccer)
-4.39177e-12 15.6624 hammer throw
-2.21341e-12 14.9772 golf putting
-1.63072e-12 14.6717 throwing discus
-1.54564e-12 14.6181 javelin throw
-7.66915e-13 13.9173 pumping fist
-5.19298e-13 13.5274 shot put
-4.26817e-13 13.3313 celebrating
-2.72057e-13 12.8809 applauding
-1.8357e-13 12.4875 throwing ball
-1.61348e-13 12.3585 dodgeball
-1.13884e-13 12.0101 tap dancing
+1.0 41.813675 playing cricket
+1.4971563e-09 21.493977 hurling (sport)
+3.8431164e-10 20.134108 catching or throwing baseball
+1.5492331e-10 19.225584 catching or throwing softball
+1.13601656e-10 18.915352 hitting baseball
+8.801122e-11 18.660118 playing tennis
+2.4415652e-11 17.377878 playing kickball
+1.1531949e-11 16.627775 playing squash or racquetball
+6.131936e-12 15.996164 shooting goal (soccer)
+4.391769e-12 15.662386 hammer throw
+2.21341e-12 14.977189 golf putting
+1.6307157e-12 14.671673 throwing discus
+1.5456367e-12 14.61809 javelin throw
+7.6691496e-13 13.917274 pumping fist
+5.192979e-13 13.527376 shot put
+4.2681665e-13 13.331253 celebrating
+2.720572e-13 12.880911 applauding
+1.835705e-13 12.487497 throwing ball
+1.6134789e-13 12.358461 dodgeball
+1.1388395e-13 12.010079 tap dancing

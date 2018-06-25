@@ -1,23 +1,23 @@
-Norm of logits: 87.108887
+Norm of logits: 87.108871
 
 Top classes and probabilities
-0.999997 25.8566 playing cricket
-1.33535e-06 12.3303 playing kickball
-4.55314e-07 11.2544 catching or throwing baseball
-3.14343e-07 10.8839 shooting goal (soccer)
-1.92433e-07 10.3931 catching or throwing softball
-1.30966e-07 10.0083 throwing discus
-1.06818e-07 9.80451 javelin throw
-9.44642e-08 9.6816 golf putting
-7.84293e-08 9.49558 jogging
-7.80177e-08 9.49032 hitting baseball
-6.60852e-08 9.32433 triple jump
-3.48785e-08 8.68525 hurling (sport)
-2.99657e-08 8.53344 skateboarding
-2.10839e-08 8.18189 hurdling
-2.00793e-08 8.13307 playing tennis
-1.8454e-08 8.04867 breakdancing
-1.70509e-08 7.96958 hammer throw
-1.70045e-08 7.96686 shot put
-1.46114e-08 7.81519 long jump
-1.42745e-08 7.79186 headbutting
+0.9999968 25.856646 playing cricket
+1.335354e-06 12.330335 playing kickball
+4.553142e-07 11.254371 catching or throwing baseball
+3.1434254e-07 10.883866 shooting goal (soccer)
+1.9243305e-07 10.393131 catching or throwing softball
+1.309655e-07 10.008317 throwing discus
+1.0681848e-07 9.804514 javelin throw
+9.446425e-08 9.681604 golf putting
+7.842931e-08 9.49558 jogging
+7.801767e-08 9.490318 hitting baseball
+6.608518e-08 9.3243265 triple jump
+3.4878482e-08 8.685253 hurling (sport)
+2.996574e-08 8.533437 skateboarding
+2.1083935e-08 8.181894 hurdling
+2.0079328e-08 8.133075 playing tennis
+1.8454037e-08 8.048665 breakdancing
+1.7050859e-08 7.969584 hammer throw
+1.7004545e-08 7.9668636 shot put
+1.4611408e-08 7.8151855 long jump
+1.4274541e-08 7.7918606 headbutting
