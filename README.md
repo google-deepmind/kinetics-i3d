@@ -17,6 +17,8 @@ datasets from fine-tuning these models. I3D models pre-trained on Kinetics also
 placed first in the CVPR 2017 [Charades
 challenge](http://vuchallenge.org/charades.html).
 
+NEW: added a new pre-trained checkpoint using rgb inputs and trained from scratch on Kinetics-600.
+
 Disclaimer: This is not an official Google product.
 
 ## Running the code
