@@ -17,7 +17,10 @@ datasets from fine-tuning these models. I3D models pre-trained on Kinetics also
 placed first in the CVPR 2017 [Charades
 challenge](http://vuchallenge.org/charades.html).
 
-NEW: added a new pre-trained checkpoint using rgb inputs and trained from scratch on Kinetics-600.
+The repository also now includes a pre-trained checkpoint using rgb inputs and trained from scratch on Kinetics-600.
+
+NEW: the video preprocessing we used has now been open-sourced by google. Check [this script](https://github.com/google/mediapipe/blob/master/mediapipe/examples/desktop/media_sequence/kinetics_dataset.py).
+
 
 Disclaimer: This is not an official Google product.
 
@@ -143,7 +146,7 @@ videos are provided in full. The video used is `v_CricketShot_g04_c01.mp4` which
 can be downloaded from the [UCF101
 website](http://crcv.ucf.edu/data/UCF101.php).
 
-Our preprocessing uses internal libraries, but can be reproduced as follows. For
+Our preprocessing uses internal libraries, that have now been open-sourced [here](https://github.com/google/mediapipe/blob/master/mediapipe/examples/desktop/media_sequence/kinetics_dataset.py). It does the following: 
 both streams, we sample frames at 25 frames per second. For Kinetics, we
 additionally clip the videos at the start and end times provided.
 
@@ -174,7 +177,7 @@ data/v_CricketShot_g04_c01_rgb.gif](data/v_CricketShot_g04_c01_rgb.gif "data/v_C
 ![See
 data/v_CricketShot_g04_c01_flow.gif](data/v_CricketShot_g04_c01_flow.gif "data/v_CricketShot_g04_c01_flow.gif")
 
-For additional details on preprocessing, please refer to our paper or contact
+For additional details on preprocessing, check [this](https://github.com/google/mediapipe/blob/master/mediapipe/examples/desktop/media_sequence/kinetics_dataset.py), refer to our paper or contact
 the authors.
 
 ### Acknowledgments
