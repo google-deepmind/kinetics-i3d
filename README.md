@@ -19,7 +19,7 @@ challenge](http://vuchallenge.org/charades.html).
 
 The repository also now includes a pre-trained checkpoint using rgb inputs and trained from scratch on Kinetics-600.
 
-NEW: the video preprocessing we used has now been open-sourced by google. Check [this script](https://github.com/google/mediapipe/blob/master/mediapipe/examples/desktop/media_sequence/kinetics_dataset.py).
+**NEW**: the video preprocessing we used has now been open-sourced by google. To set it up, check [these instructions in Google's MediaPipe repo](https://github.com/google/mediapipe/blob/master/mediapipe/docs/install.md).
 
 
 Disclaimer: This is not an official Google product.
@@ -146,8 +146,8 @@ videos are provided in full. The video used is `v_CricketShot_g04_c01.mp4` which
 can be downloaded from the [UCF101
 website](http://crcv.ucf.edu/data/UCF101.php).
 
-Our preprocessing uses internal libraries, that have now been open-sourced [here](https://github.com/google/mediapipe/blob/master/mediapipe/examples/desktop/media_sequence/kinetics_dataset.py). It does the following: 
-both streams, we sample frames at 25 frames per second. For Kinetics, we
+Our preprocessing uses internal libraries, that have now been open-sourced [check Google's MediaPipe repo](https://github.com/google/mediapipe/blob/master/mediapipe/docs/install.md). It does the following: 
+for both streams, we sample frames at 25 frames per second. For Kinetics, we
 additionally clip the videos at the start and end times provided.
 
 For RGB, the videos are resized preserving aspect ratio so that the smallest
