@@ -5,12 +5,12 @@
 This repository contains trained models reported in the paper "[Quo Vadis,
 Action Recognition? A New Model and the Kinetics
 Dataset](https://arxiv.org/abs/1705.07750)" by Joao Carreira and Andrew
-Zisserman. The paper was posted on arXiv in May 2017, and will be published as a
+Zisserman. The paper was posted on arXiv in May 2017, and was published as a
 CVPR 2017 conference paper.
 
 "Quo Vadis" introduced a new architecture for video classification, the Inflated
 3D Convnet or I3D. Here we release Inception-v1 I3D models trained on the
-[Kinetics dataset](www.deepmind.com/kinetics) training split.
+[Kinetics dataset](http://www.deepmind.com/kinetics) training split.
 
 In our paper, we reported state-of-the-art results on the UCF101 and HMDB51
 datasets from fine-tuning these models. I3D models pre-trained on Kinetics also
@@ -139,7 +139,7 @@ Two-Stream I3D | 74.2 / 91.3         | 71.6 / 90.0
 
 ### Sample data and preprocessing
 
-The release of the [DeepMind Kinetics dataset](www.deepmind.com/kinetics) only
+The release of the [DeepMind Kinetics dataset](http://www.deepmind.com/kinetics) only
 included the YouTube IDs and the start and end times of the clips. For the
 sample data here, we use a video from the UCF101 dataset, for which all the
 videos are provided in full. The video used is `v_CricketShot_g04_c01.mp4` which
